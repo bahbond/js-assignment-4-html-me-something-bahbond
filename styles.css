@@ -1,1 +1,7 @@
 /* Write your CSS here! */
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  
