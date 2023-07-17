@@ -85,3 +85,13 @@
     margin:8px;
     display: block;
   }
+  #testP{
+    font-size: 28px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  .funParagraph{
+    color:green;
+  }
