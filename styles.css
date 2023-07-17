@@ -3,11 +3,17 @@
     float: left;
     width: 25%;
   }
-  
+  .title
+  {
+    font-size: 60px;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
   h1{
     font-size: 48px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:bisque;
+    color:rgb(0, 0, 0);
     text-align: center;
   }
 
@@ -16,13 +22,21 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:darkgray;
     text-align: center;
-  }
+    
+     }
+
+     h3{
+      font-size: 24px;
+      text-align: center;
+     }
   p{
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   #toppage{
-    background-color: black;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(18,9,121,1) 7%, rgba(2,0,36,1) 87%, rgba(18,9,121,1) 95%);
+    padding-bottom: 30px;
   }
   #fullwidth{
     width:100%;
@@ -30,7 +44,7 @@
 
   #mainimgleft
   {
-    width: 800px;
+    width: 600px;
     height:400px;
     float:left;
     margin-left: 20px;
@@ -47,4 +61,20 @@
     
     display:flex;
     
+  }
+  .pinimage{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .pininfo{
+    font-size: 28px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  header{
+    margin-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
